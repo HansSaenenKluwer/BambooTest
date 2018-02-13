@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'wk-init';
+@import 'wk-reset';
+
+@import 'wk-components/type/type';
+@import 'wk-components/layout/layout';
+@import 'wk-components/inputs/inputs';
+@import 'wk-components/forms/forms';
+@import 'wk-components/buttons/buttons';

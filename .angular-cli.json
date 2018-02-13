@@ -21,6 +21,18 @@
       "styles": [
         "styles.scss"
       ],
+      "stylePreprocessorOptions": {
+        "includePaths": [
+          "../node_modules/@wk/sass-utils/src/",
+          "../node_modules/modularscale-sass/stylesheets/",
+          "../node_modules/breakpoint-sass/stylesheets/",
+          "../node_modules/susy/sass",
+          "../node_modules/@wk/css/src/",
+          "../node_modules/@wk/fonts/src/",
+          "../node_modules/wk-css-document/src/",
+          "../node_modules/wk-css-tree/src/"
+        ]
+      },
       "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
